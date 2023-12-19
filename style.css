@@ -1,0 +1,37 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #f0f0f0;
+}
+
+#game {
+    width: 400px;
+    margin: 20px auto;
+}
+
+#game-field {
+    display: grid;
+    grid-template-columns: repeat(10, 1fr);
+    grid-template-rows: repeat(10, 40px);
+    gap: 1px;
+}
+
+.cell {
+    background-color: white;
+}
+
+.snake {
+    background-color: green;
+}
+
+.apple {
+    background-color: red;
+}
+
+#score, #record {
+    margin-bottom: 10px;
+}
+
+#restart-btn {
+    margin-top: 20px;
+}
